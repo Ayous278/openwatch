@@ -1,0 +1,8 @@
+FINAL SUMMARY (BASE ONLY - NO LORA)
+Head params: 200,582 (trainable), Backbone params: 136,112,328 (frozen)
+Best checkpoint: /workspace/base/src/outputs/Benchmark/normwear_base/run_20260201_094618/normwear_base_head_best.pt
+VAL window:  loss=1.0918 acc=0.6261 F1(macro/micro/weighted)=0.3624/0.6261/0.7014
+TEST window: loss=1.1283 acc=0.6204 F1(macro/micro/weighted)=0.3376/0.6204/0.7004
+TEST clip:   acc=0.6869 F1(macro/micro/weighted)=0.3697/0.6869/0.7570
+Full pipeline timing: 10.8693 ms/window | 92.00 windows/s
+Artifacts:   /workspace/base/src/outputs/Benchmark/normwear_base/run_20260201_094618

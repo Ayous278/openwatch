@@ -1,0 +1,5 @@
+INFERENCE BENCHMARK (FULL PIPELINE: CWT + Backbone + Aggregation + Head)
+Device: cuda
+Input: B=16 T=100 C=7
+Median batch: 199.949 ms | Median/window: 12.497 ms | Throughput: 80.02 windows/s
+P90/P95 batch: 200.141/200.236 ms

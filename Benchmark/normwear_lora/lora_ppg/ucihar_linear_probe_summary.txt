@@ -1,0 +1,6 @@
+UCI-HAR Linear Probe Results
+BASE | Macro-F1=0.7931 | AUC(ovr)=0.9572
+LoRA | Macro-F1=0.7675 | AUC(ovr)=0.9502
+Delta F1  = -0.0257
+Delta AUC = -0.0070
+LoRA load mode: weights_only

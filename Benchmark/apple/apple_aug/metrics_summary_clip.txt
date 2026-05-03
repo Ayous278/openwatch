@@ -1,0 +1,8 @@
+CLIP-LEVEL METRICS
+TEST acc=0.8788
+TEST macro    P/R/F1=0.6510/0.9491/0.7556
+TEST micro    P/R/F1=0.8788/0.8788/0.8788
+TEST weighted P/R/F1=0.9332/0.8788/0.8934
+Forward ms/sample (from window eval)=0.3383
+Aggregation ms/clip=0.0000
+Early-stop default_k=3 k_map_size=0 majority_fallback=20/198

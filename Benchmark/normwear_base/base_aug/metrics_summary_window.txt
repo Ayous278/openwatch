@@ -1,0 +1,9 @@
+WINDOW-LEVEL METRICS (FULL PIPELINE: CWT + Backbone + Aggregation + Head)
+VAL  loss=0.9141 acc=0.7073 ms/sample=10.8434
+VAL  macro    P/R/F1=0.4072/0.6945/0.4705
+VAL  micro    P/R/F1=0.7073/0.7073/0.7073
+VAL  weighted P/R/F1=0.8675/0.7073/0.7576
+TEST loss=1.0165 acc=0.6818 ms/sample=10.8434
+TEST macro    P/R/F1=0.3841/0.6172/0.4297
+TEST micro    P/R/F1=0.6818/0.6818/0.6818
+TEST weighted P/R/F1=0.8629/0.6818/0.7425

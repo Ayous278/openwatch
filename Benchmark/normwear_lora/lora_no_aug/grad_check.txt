@@ -1,0 +1,2 @@
+[GRAD CHECK] LoRA grad norm: 0.040685
+[GRAD CHECK] Head grad norm: 5.825362

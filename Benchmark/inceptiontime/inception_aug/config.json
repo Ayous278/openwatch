@@ -1,0 +1,26 @@
+{
+  "SEED": 42,
+  "BATCH_SIZE": 64,
+  "MAX_EPOCHS": 100,
+  "PATIENCE": 8,
+  "LR": 0.001,
+  "WEIGHT_DECAY": 0.0001,
+  "LABEL_SMOOTHING": 0.0,
+  "NB_FILTERS": 32,
+  "DEPTH": 6,
+  "KERNEL_SIZES": [
+    9,
+    19,
+    39
+  ],
+  "USE_RESIDUAL": true,
+  "USE_BOTTLENECK": true,
+  "BOTTLENECK_SIZE": 32,
+  "DROPOUT_RATE": 0.5,
+  "GAMMA": 0.954992586021436,
+  "CLIP_DEFAULT_K": 3,
+  "CLIP_K_MAP": null,
+  "seq_len": 100,
+  "n_channels": 6,
+  "n_classes": 6
+}

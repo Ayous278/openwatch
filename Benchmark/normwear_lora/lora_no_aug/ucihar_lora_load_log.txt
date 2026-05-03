@@ -1,0 +1,3 @@
+Loaded LoRA weights-only from: /workspace/base/src/outputs/Benchmark/normwear_lora/run_20260201_095225/normwear_lora_weights_only.pt
+LoRA layers found in model: 6
+lora_A tensors loaded: 6 | lora_B tensors loaded: 6

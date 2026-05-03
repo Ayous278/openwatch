@@ -1,0 +1,37 @@
+{
+  "dropped": [
+    "cross_channel"
+  ],
+  "stats_features_kept": 39,
+  "n_params": 223285,
+  "window_test_loss": 0.6763496150870257,
+  "window_test_acc": 0.8400673400673401,
+  "window_test_f1_macro": 0.6801450677647178,
+  "window_test_f1_micro": 0.8400673400673401,
+  "window_test_f1_weighted": 0.8646280285255536,
+  "window_test_precision": 0.5976090123644472,
+  "window_test_recall": 0.8859047300312359,
+  "window_val_loss": 0.302139732044605,
+  "window_val_acc": 0.907563025210084,
+  "window_val_f1_macro": 0.7823371290041604,
+  "clip_test_acc": 0.9090909090909091,
+  "clip_test_f1_macro": 0.8432150377191886,
+  "clip_test_f1_weighted": 0.9238232170189735,
+  "per_class_f1_window": [
+    0.8571428571428571,
+    0.7457627118644068,
+    0.484375,
+    0.5084745762711864,
+    0.5813953488372093,
+    0.9037199124726477
+  ],
+  "per_class_f1_clip": [
+    0.9411764705882353,
+    0.8421052631578947,
+    0.5,
+    0.8333333333333334,
+    1.0,
+    0.9426751592356688
+  ],
+  "best_ckpt": "/workspace/outputs/ablation_study/ablation_20260221-034245/no_cross_channel/best-epoch=25-val/f1=0.7823.ckpt"
+}

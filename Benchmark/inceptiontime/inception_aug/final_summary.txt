@@ -1,0 +1,7 @@
+FINAL SUMMARY
+Params total: 448,774
+Best checkpoint: /workspace/base/src/outputs/Benchmark/inceptiontime/run_20260201-202339/best_inceptiontime.pt
+VAL window:  loss=0.4821 acc=0.8235 F1(macro/micro/weighted)=0.5602/0.8235/0.8459
+TEST window: loss=0.6344 acc=0.7769 F1(macro/micro/weighted)=0.5159/0.7769/0.8095
+TEST clip:   acc=0.8384 F1(macro/micro/weighted)=0.6239/0.8384/0.8596
+Artifacts:   /workspace/base/src/outputs/Benchmark/inceptiontime/run_20260201-202339

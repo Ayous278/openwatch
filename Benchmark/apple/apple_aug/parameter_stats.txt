@@ -1,0 +1,3 @@
+PARAMETER STATISTICS
+Total params: 51,216
+Trainable params: 51,216

@@ -1,0 +1,40 @@
+# OpenWatch — pinned to ranges that work with the notebooks as written.
+# Tested with Python 3.10 + CUDA 11.8/12.1 PyTorch wheels.
+
+# --- Core scientific stack ---
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.10,<2.0
+scikit-learn>=1.3,<2.0
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+tqdm>=4.65
+
+# --- Deep learning ---
+# PyTorch must be installed manually with the right CUDA build, e.g.:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1,<3.0
+torchaudio>=2.1,<3.0
+torchvision>=0.16,<1.0
+torchmetrics>=1.2,<2.0
+pytorch-lightning>=2.1,<3.0
+
+# --- Experiment tracking ---
+wandb>=0.16
+
+# --- Notebook + display ---
+jupyterlab>=4.0
+ipython>=8.10
+ipywidgets>=8.0
+
+# --- Hugging Face (dataset + weights download) ---
+huggingface_hub>=0.20
+datasets>=2.14
+
+# --- NormWear foundation model ---
+# Install separately from its official source as referenced in the paper:
+#   pip install git+https://github.com/<author>/NormWear.git
+# (Listed here as a comment because it is not on PyPI.)
+
+# --- Misc utilities used in notebooks ---
+PyYAML>=6.0

@@ -1,0 +1,8 @@
+FINAL SUMMARY (LoRA + HEAD)
+LoRA params: 110,592, Head params: 200,582, Backbone: 136,222,920 (frozen)
+Best checkpoint: /workspace/base/src/outputs/Benchmark/normwear_lora/run_20260201_095225/normwear_lora_finetune_best.pt
+VAL window:  loss=1.5602, acc=0.5798, F1(macro/micro/weighted)=0.3121/0.5798/0.6677
+TEST window: loss=1.6432, acc=0.5614, F1(macro/micro/weighted)=0.2958/0.5614/0.6578
+TEST clip:   acc=0.6515, F1(macro/micro/weighted)=0.3619/0.6515/0.7276
+Inference (median/window ms): 11.085 | Throughput: 90.21 windows/s (device=cuda)
+Artifacts:   /workspace/base/src/outputs/Benchmark/normwear_lora/run_20260201_095225

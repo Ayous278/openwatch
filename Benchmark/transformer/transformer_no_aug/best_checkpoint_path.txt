@@ -1,0 +1,1 @@
+/workspace/base/src/outputs/Benchmark/transformer/run_20260201-164835/gesture-classifier-best-epoch=13.ckpt

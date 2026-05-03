@@ -1,0 +1,7 @@
+FINAL SUMMARY
+Params total: 51,216
+Best checkpoint: /workspace/base/src/outputs/Benchmark/apple/run_20260201-115233/filterbank_imu_cnn_best.pt
+VAL window:  loss=1.7474 acc=0.5420 F1(macro/micro/weighted)=0.3015/0.5420/0.6258
+TEST window: loss=1.8289 acc=0.5042 F1(macro/micro/weighted)=0.3004/0.5042/0.6020
+TEST clip:   acc=0.5909 F1(macro/micro/weighted)=0.4077/0.5909/0.6805
+Artifacts:   /workspace/base/src/outputs/Benchmark/apple/run_20260201-115233

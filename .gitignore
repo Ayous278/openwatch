@@ -1,0 +1,69 @@
+# --- macOS / editor cruft ---
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Experiment / artifact noise ---
+wandb/
+mlruns/
+lightning_logs/
+runs/
+outputs/
+tmp/
+*.log
+
+# --- Heavy artifacts hosted on Hugging Face, not in the repo ---
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Large feature/embedding caches
+**/train_embeddings.npy
+**/test_embeddings.npy
+**/val_embeddings.npy
+**/ucihar_Ztr_*.npy
+**/ucihar_Zte_*.npy
+**/ucihar_prob_*.npy
+**/ucihar_pred_*.npy
+
+# Cached datasets
+data/
+datasets/
+
+# --- OS-level temp files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini

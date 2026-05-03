@@ -1,0 +1,76 @@
+{
+  "base": {
+    "acc": 0.7865626060400407,
+    "prf": {
+      "macro": {
+        "precision": 0.7945910659746717,
+        "recall": 0.7932116805093443,
+        "f1": 0.7931290701151977
+      },
+      "micro": {
+        "precision": 0.7865626060400407,
+        "recall": 0.7865626060400407,
+        "f1": 0.7865626060400407
+      },
+      "weighted": {
+        "precision": 0.7877787961391767,
+        "recall": 0.7865626060400407,
+        "f1": 0.7863598624376038
+      }
+    },
+    "auc_ovr": 0.957221166844278,
+    "support": [
+      496,
+      471,
+      420,
+      491,
+      532,
+      537
+    ]
+  },
+  "lora": {
+    "acc": 0.7438072616219885,
+    "prf": {
+      "macro": {
+        "precision": 0.7506661318868582,
+        "recall": 0.7512506925780063,
+        "f1": 0.7499491535934263
+      },
+      "micro": {
+        "precision": 0.7438072616219885,
+        "recall": 0.7438072616219885,
+        "f1": 0.7438072616219885
+      },
+      "weighted": {
+        "precision": 0.7434986611785213,
+        "recall": 0.7438072616219885,
+        "f1": 0.7425801360555058
+      }
+    },
+    "auc_ovr": 0.9456604706659597,
+    "support": [
+      496,
+      471,
+      420,
+      491,
+      532,
+      537
+    ]
+  },
+  "delta": {
+    "acc": -0.04275534441805218,
+    "f1_macro": -0.043179916521771444,
+    "f1_micro": -0.04275534441805218,
+    "f1_weighted": -0.04377972638209804,
+    "auc_ovr": -0.011560696178318342
+  },
+  "load_mode": "weights_only",
+  "artifacts": {
+    "cm_base_png": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_base.png",
+    "cm_lora_png": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_lora.png",
+    "cm_base_counts_npy": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_base_counts.npy",
+    "cm_base_norm01_npy": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_base_norm01.npy",
+    "cm_lora_counts_npy": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_lora_counts.npy",
+    "cm_lora_norm01_npy": "/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/ucihar_cm_lora_norm01.npy"
+  }
+}

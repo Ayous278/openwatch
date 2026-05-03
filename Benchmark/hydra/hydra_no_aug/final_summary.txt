@@ -1,0 +1,7 @@
+FINAL SUMMARY
+Params total: 73,846
+Best checkpoint: /workspace/base/src/outputs/Benchmark/hydra/run_20260201-153955/best_hydra.pt
+VAL window:  loss=1.0728 acc=0.7101 F1(macro/micro/weighted)=0.4442/0.7101/0.7627
+TEST window: loss=1.1976 acc=0.6978 F1(macro/micro/weighted)=0.4089/0.6978/0.7518
+TEST clip:   acc=0.7626 F1(macro/micro/weighted)=0.5237/0.7626/0.8031
+Artifacts:   /workspace/base/src/outputs/Benchmark/hydra/run_20260201-153955

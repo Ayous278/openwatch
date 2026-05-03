@@ -1,0 +1,7 @@
+FINAL SUMMARY (COMPREHENSIVE METRICS)
+Params total: 223285
+Best checkpoint: /workspace/base/src/outputs/Benchmark/transformer/run_20260202-085058/gesture-classifier-best-epoch=48.ckpt
+VAL window:  loss=0.2413 acc=0.9342 F1(macro/micro/weighted)=0.8264/0.9342/0.9402
+TEST window: loss=0.6190 acc=0.8939 F1(macro/micro/weighted)=0.7424/0.8939/0.9058
+TEST clip:   acc=0.9495 F1(macro/micro/weighted)=0.8793/0.9495/0.9540
+Artifacts:   /workspace/base/src/outputs/Benchmark/transformer/run_20260202-085058

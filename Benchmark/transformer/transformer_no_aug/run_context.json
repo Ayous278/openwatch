@@ -1,0 +1,6 @@
+{
+  "run_id": "20260201-164835",
+  "outputs_root": "/workspace/base/src/outputs/Benchmark",
+  "transformer_dir": "/workspace/base/src/outputs/Benchmark/transformer/run_20260201-164835",
+  "device": "cuda"
+}

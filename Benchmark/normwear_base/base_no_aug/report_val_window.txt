@@ -1,0 +1,12 @@
+               precision    recall  f1-score   support
+
+double_clench      0.220     0.611     0.324        18
+ double_pinch      0.447     0.567     0.500        30
+   pinch_down      0.075     0.292     0.120        24
+     pinch_up      0.171     0.400     0.240        30
+        slide      0.130     0.583     0.212        12
+     Negative      0.961     0.655     0.779       600
+
+     accuracy                          0.626       714
+    macro avg      0.334     0.518     0.362       714
+ weighted avg      0.844     0.626     0.701       714

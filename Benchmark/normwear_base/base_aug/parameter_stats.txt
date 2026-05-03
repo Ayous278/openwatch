@@ -1,0 +1,10 @@
+
+============================================================
+PARAMETER STATISTICS (BASE ONLY - NO LORA)
+============================================================
+Head params (total):       200,582
+Head params (trainable):   200,582
+Backbone params (frozen):  136,112,328
+Total system params:       136,312,910
+Trainable %:               0.1471%
+============================================================

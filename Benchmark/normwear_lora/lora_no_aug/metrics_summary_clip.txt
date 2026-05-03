@@ -1,0 +1,3 @@
+CLIP-LEVEL TEST  acc=0.6515, F1(macro/micro/weighted)=0.3619/0.6515/0.7276
+Early-stop config: default_k=3, |k_map|=0
+Clips needing majority fallback (no early stop): 29/198

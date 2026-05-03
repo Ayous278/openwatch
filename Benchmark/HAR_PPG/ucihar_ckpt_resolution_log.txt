@@ -1,0 +1,8 @@
+resolve_lora_ckpts:
+  preferred_run_dir = /workspace/base/src/outputs/tri_models_unified/normwear/run_20260201_195510
+  outputs_root      = /workspace/base/src/outputs/tri_models_unified
+  Not found in preferred_run_dir; searching recursively under outputs_root.
+  candidates weights_only = 22
+  candidates full_ckpt    = 22
+  Selected weights_only (newest): /workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260201_184249/normwear_lora_weights_only.pt
+  Selected full_ckpt    (newest): /workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260201_184249/normwear_lora_finetune_best.pt

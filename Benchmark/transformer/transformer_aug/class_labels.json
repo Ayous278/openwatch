@@ -1,0 +1,11 @@
+{
+  "class_labels": [
+    "double_clench",
+    "double_pinch",
+    "pinch_down",
+    "pinch_up",
+    "slide",
+    "Negative"
+  ],
+  "n_classes": 6
+}

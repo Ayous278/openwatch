@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260201_092350",
+  "UCI_ROOT": "/workspace/data/UCI_HAR",
+  "BASE_NORMWEAR_CKPT": "NormWear/normwear_last_checkpoint-15470-correct.pth",
+  "OUTPUTS_ROOT": "/workspace/base/src/outputs/Benchmark",
+  "NORMWEAR_DIR": "/workspace/base/src/outputs/Benchmark/normwear_lora/run_20260131_235755",
+  "LORA_WEIGHTS_ONLY_RESOLVED": "/workspace/base/src/outputs/Benchmark/normwear_lora/run_20260131_235755/normwear_lora_weights_only.pt",
+  "LORA_FULL_CKPT_RESOLVED": "/workspace/base/src/outputs/Benchmark/normwear_lora/run_20260131_235755/normwear_lora_finetune_best.pt",
+  "DEVICE": "cuda",
+  "BATCH_SIZE": 128,
+  "PATCH_POOL": "mean+max",
+  "CHANNEL_POOL": "max",
+  "LORA": {
+    "r": 8,
+    "alpha": 32.0,
+    "dropout": 0.1,
+    "target_modules": [
+      "qkv",
+      "proj"
+    ],
+    "last_k": 2,
+    "include_cls_fusion": true
+  }
+}

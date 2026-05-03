@@ -1,0 +1,50 @@
+{
+  "SEED": 42,
+  "SAMPLING_RATE": 100.0,
+  "NORMWEAR_ENCODER_CKPT": "NormWear/normwear_last_checkpoint-15470-correct.pth",
+  "BATCH": 16,
+  "EPOCHS": 100,
+  "PATIENCE": 5,
+  "LORA": {
+    "r": 8,
+    "alpha": 32,
+    "dropout": 0.1,
+    "target_modules": [
+      "qkv",
+      "proj"
+    ],
+    "last_k": 2,
+    "include_cls_fusion": true
+  },
+  "POOLING": {
+    "PATCH_POOL": "mean+max",
+    "CHANNEL_POOL": "max"
+  },
+  "OPT": {
+    "LR_LORA": 0.001,
+    "LR_HEAD": 0.001,
+    "WEIGHT_DECAY": 0.01,
+    "DECAY_TARGET_LORA": 0.01,
+    "DECAY_TARGET_HEAD": 0.01,
+    "GAMMA_LORA": 0.954992586021436,
+    "GAMMA_HEAD": 0.954992586021436
+  },
+  "CLIP": {
+    "DEFAULT_K": 3,
+    "K_MAP": {}
+  },
+  "INFERENCE_BENCHMARK_WINDOW": {
+    "device": "cuda",
+    "batch_size": 16,
+    "T": 100,
+    "C": 7,
+    "n_warmup": 25,
+    "n_runs": 100,
+    "median_batch_ms": 204.5484179398045,
+    "mean_batch_ms": 204.5589958061464,
+    "p90_batch_ms": 205.5086249485612,
+    "p95_batch_ms": 205.81257985904813,
+    "median_per_window_ms": 12.784276121237781,
+    "throughput_windows_per_s": 78.22108897810473
+  }
+}

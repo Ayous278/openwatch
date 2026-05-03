@@ -1,0 +1,4 @@
+resolve_lora_ckpts:
+  preferred_run_dir = /workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260201_184249
+  outputs_root      = /workspace/base/src/outputs/Benchmark
+  Found at preferred_run_dir.

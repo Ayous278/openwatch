@@ -1,0 +1,9 @@
+WINDOW-LEVEL METRICS
+VAL  loss=1.0728 acc=0.7101 ms/sample=0.1201
+VAL  macro    P/R/F1=0.4163/0.5951/0.4442
+VAL  micro    P/R/F1=0.7101/0.7101/0.7101
+VAL  weighted P/R/F1=0.8593/0.7101/0.7627
+TEST loss=1.1976 acc=0.6978 ms/sample=0.1289
+TEST macro    P/R/F1=0.3866/0.5432/0.4089
+TEST micro    P/R/F1=0.6978/0.6978/0.6978
+TEST weighted P/R/F1=0.8553/0.6978/0.7518

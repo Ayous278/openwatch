@@ -1,0 +1,2 @@
+Total params: 223285
+Trainable params: 223285

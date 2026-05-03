@@ -1,0 +1,6 @@
+{
+  "run_id": "20260202-014527",
+  "outputs_root": "/workspace/base/src/outputs/Benchmark",
+  "run_dir": "/workspace/base/src/outputs/Benchmark/hydra/run_20260202-014527",
+  "device": "cuda"
+}

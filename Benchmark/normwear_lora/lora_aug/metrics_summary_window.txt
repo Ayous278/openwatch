@@ -1,0 +1,2 @@
+WINDOW-LEVEL VAL   loss=1.0724, acc=0.7983, F1(macro/micro/weighted)=0.6246/0.7983/0.8287
+WINDOW-LEVEL TEST  loss=1.2180, acc=0.7508, F1(macro/micro/weighted)=0.5601/0.7508/0.7940

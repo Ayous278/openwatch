@@ -1,0 +1,9 @@
+{
+  "model_total_params": 136423502,
+  "model_trainable_params": 311174,
+  "backbone_total_params": 136222920,
+  "backbone_trainable_params": 110592,
+  "head_trainable_params": 200582,
+  "lora_params": 110592,
+  "trainable_percent": 0.22809412999821688
+}

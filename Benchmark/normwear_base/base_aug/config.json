@@ -1,0 +1,23 @@
+{
+  "SEED": 42,
+  "SAMPLING_RATE": 100.0,
+  "NORMWEAR_ENCODER_CKPT": "NormWear/normwear_last_checkpoint-15470-correct.pth",
+  "BATCH": 64,
+  "EPOCHS": 100,
+  "PATIENCE": 8,
+  "MODE": "BASE_ONLY",
+  "POOLING": {
+    "PATCH_POOL": "mean+max",
+    "CHANNEL_POOL": "max"
+  },
+  "OPT": {
+    "LR_HEAD": 0.001,
+    "WEIGHT_DECAY": 0.001,
+    "DECAY_TARGET": 0.01,
+    "GAMMA": 0.954992586021436
+  },
+  "CLIP": {
+    "DEFAULT_K": 3,
+    "K_MAP": null
+  }
+}

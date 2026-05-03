@@ -1,0 +1,10 @@
+{
+  "metrics_csv": "/workspace/base/src/outputs/Benchmark/transformer/run_20260201-164835/pl_logs/version_0/metrics.csv",
+  "train_loss_col": "train/loss",
+  "val_loss_col": "val/loss",
+  "train_acc_col": "train/acc_macro",
+  "val_acc_col": "val/acc_macro",
+  "train_f1_col": "train/f1",
+  "val_f1_col": "val/f1",
+  "lr_col": "lr"
+}

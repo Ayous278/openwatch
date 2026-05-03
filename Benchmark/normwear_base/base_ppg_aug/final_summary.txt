@@ -1,0 +1,8 @@
+FINAL SUMMARY (BASE ONLY - NO LORA)
+Head params: 200,582 (trainable), Backbone params: 136,112,328 (frozen)
+Best checkpoint: /workspace/base/src/outputs/tri_models_unified/normwear_base/run_20260202_200756/normwear_base_head_best.pt
+VAL window:  loss=0.6936 acc=0.8291 F1(macro/micro/weighted)=0.5561/0.8291/0.8481
+TEST window: loss=0.7709 acc=0.7845 F1(macro/micro/weighted)=0.4921/0.7845/0.8140
+TEST clip:   acc=0.8687 F1(macro/micro/weighted)=0.6448/0.8687/0.8809
+Full pipeline timing: 12.4968 ms/window | 80.02 windows/s
+Artifacts:   /workspace/base/src/outputs/tri_models_unified/normwear_base/run_20260202_200756

@@ -1,0 +1,33 @@
+{
+  "test": {
+    "acc": 0.6515151515151515,
+    "prf": {
+      "macro": {
+        "precision": 0.34016506876676367,
+        "recall": 0.4640729585006693,
+        "f1": 0.361915249442242
+      },
+      "micro": {
+        "precision": 0.6515151515151515,
+        "recall": 0.6515151515151515,
+        "f1": 0.6515151515151515
+      },
+      "weighted": {
+        "precision": 0.8560318559676546,
+        "recall": 0.6515151515151515,
+        "f1": 0.7276495251935997
+      }
+    },
+    "timing": {
+      "window_forward_ms_per_sample": 11.084745412517805,
+      "aggregation_ms_total": 0.03998097963631153,
+      "aggregation_ms_per_clip": 0.00020192413957733098
+    }
+  },
+  "early_stop": {
+    "default_k": 3,
+    "k_map_size": 0,
+    "missed_early": 29,
+    "n_clips": 198
+  }
+}

@@ -1,0 +1,1 @@
+/workspace/base/src/outputs/Benchmark/inceptiontime/run_20260201-132046/best_inceptiontime.pt

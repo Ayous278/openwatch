@@ -1,0 +1,37 @@
+{
+  "dropped": [
+    "frequency"
+  ],
+  "stats_features_kept": 92,
+  "n_params": 223285,
+  "window_test_loss": 0.6613777443389542,
+  "window_test_acc": 0.8745791245791246,
+  "window_test_f1_macro": 0.7143674261603973,
+  "window_test_f1_micro": 0.8745791245791246,
+  "window_test_f1_weighted": 0.891643120006682,
+  "window_test_precision": 0.6418647571420324,
+  "window_test_recall": 0.8684738955823293,
+  "window_val_loss": 0.30828212739999866,
+  "window_val_acc": 0.9299719887955182,
+  "window_val_f1_macro": 0.8155796727000917,
+  "clip_test_acc": 0.9040404040404041,
+  "clip_test_f1_macro": 0.8073512489000203,
+  "clip_test_f1_weighted": 0.9184028739298489,
+  "per_class_f1_window": [
+    0.9052631578947369,
+    0.6851851851851852,
+    0.4878048780487805,
+    0.6521739130434783,
+    0.625,
+    0.9307774227902024
+  ],
+  "per_class_f1_clip": [
+    0.9411764705882353,
+    0.8235294117647058,
+    0.5,
+    0.9090909090909091,
+    0.7272727272727273,
+    0.9430379746835443
+  ],
+  "best_ckpt": "/workspace/outputs/ablation_study/ablation_20260221-034245/no_frequency/best-epoch=32-val/f1=0.8131.ckpt"
+}

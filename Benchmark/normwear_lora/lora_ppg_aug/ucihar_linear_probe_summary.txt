@@ -1,0 +1,10 @@
+UCI-HAR Linear Probe Results
+BASE | acc=0.7866 | F1(macro/micro/weighted)=0.7931/0.7866/0.7864 | AUC(ovr)=0.9572
+LoRA | acc=0.7438 | F1(macro/micro/weighted)=0.7499/0.7438/0.7426 | AUC(ovr)=0.9457
+Delta acc         = -0.0428
+Delta F1(macro)   = -0.0432
+Delta F1(micro)   = -0.0428
+Delta F1(weighted)= -0.0438
+LoRA load mode    = weights_only
+Resolved ckpts    = weights_only=/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/normwear_lora_weights_only.pt, full_ckpt=/workspace/base/src/outputs/tri_models_unified/normwear_lora/run_20260202_202613/normwear_lora_finetune_best.pt
+Saved CMs         = ucihar_cm_base.png, ucihar_cm_lora.png

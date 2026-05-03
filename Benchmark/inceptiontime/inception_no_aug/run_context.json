@@ -1,0 +1,6 @@
+{
+  "run_id": "20260201-132046",
+  "outputs_root": "/workspace/base/src/outputs/Benchmark",
+  "run_dir": "/workspace/base/src/outputs/Benchmark/inceptiontime/run_20260201-132046",
+  "device": "cuda"
+}

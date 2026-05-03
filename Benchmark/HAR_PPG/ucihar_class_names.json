@@ -1,0 +1,10 @@
+{
+  "class_names": [
+    "WALKING",
+    "WALK_UP",
+    "WALK_DOWN",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ]
+}

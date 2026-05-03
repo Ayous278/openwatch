@@ -1,0 +1,10 @@
+{
+  "class_names": [
+    "double_clench",
+    "double_pinch",
+    "pinch_down",
+    "pinch_up",
+    "slide",
+    "Negative"
+  ]
+}

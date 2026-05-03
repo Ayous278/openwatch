@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "batch_size": 16,
+  "T": 100,
+  "C": 6,
+  "n_warmup": 25,
+  "n_runs": 100,
+  "median_batch_ms": 173.90886147040874,
+  "mean_batch_ms": 173.93546956125647,
+  "p90_batch_ms": 174.5792646193877,
+  "p95_batch_ms": 174.70208153827116,
+  "median_per_window_ms": 10.869303841900546,
+  "throughput_windows_per_s": 92.0022123353528
+}
