@@ -1,6 +1,8 @@
 # OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches
 
-Code and benchmark artifacts for **"OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches"** by Pietro Bonazzi, Youssef Ahmed, Daniel Eckert, Michele Magno, Dengxin Dai (ETH Zürich, Huawei Research Zürich).
+Code and benchmark artifacts for **"OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches"** by Pietro Bonazzi<sup>\*</sup>, Youssef Ahmed<sup>\*</sup>, Daniel Eckert, Michele Magno, Dengxin Dai (ETH Zürich, Huawei Research Zürich).
+
+<sup>\*</sup> Equal contribution.
 
 OpenWatch is the first open-access multi-modal benchmark for wrist-based gesture recognition. It contains over 10 hours of synchronized 6-axis IMU and PPG data from 50 participants and 78 sessions, covering 59 labeled gesture classes including a negative/background class.
 
